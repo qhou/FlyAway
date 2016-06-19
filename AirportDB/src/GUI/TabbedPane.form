@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.TabbedPane">
+  <grid id="27dc6" binding="rootpanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1004" height="1004"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="64e2e" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="1000" height="1000"/>
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="28" style="1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="bfd13" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Customer"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <tabbedpane id="4723e">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="1000" height="1000"/>
+                    <preferred-size width="200" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="24" style="1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="4295e" layout-manager="GridLayoutManager" row-count="8" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Booking"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="ef153" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="New customer"/>
+                        </properties>
+                      </component>
+                      <component id="43c5f" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="Existing Customer"/>
+                        </properties>
+                      </component>
+                      <component id="e7f18" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                          <text value="Passport #:"/>
+                        </properties>
+                      </component>
+                      <component id="96133" class="javax.swing.JTextField" binding="NewPassportTextField">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="e746e" class="javax.swing.JLabel" binding="ExistCusPN">
+                        <constraints>
+                          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                          <text value="Passport#:"/>
+                        </properties>
+                      </component>
+                      <component id="4bcb1" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                          <text value="Airline:"/>
+                        </properties>
+                      </component>
+                      <component id="4291e" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                          <text value="Flight#:"/>
+                        </properties>
+                      </component>
+                      <component id="9151f" class="javax.swing.JTextField" binding="NewAirlineTextField">
+                        <constraints>
+                          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="8a9c5" class="javax.swing.JTextField" binding="NewFlightTextField">
+                        <constraints>
+                          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="7b37f" class="javax.swing.JTextField" binding="NewCusNameTextField">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="2874a" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                          <text value="Name:"/>
+                        </properties>
+                      </component>
+                      <component id="6888a" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                          <text value="Phone#"/>
+                        </properties>
+                      </component>
+                      <component id="bf6bc" class="javax.swing.JTextField" binding="NewCusPhoneTextField">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="e7329" class="javax.swing.JTextField" binding="existCusIDTextField">
+                        <constraints>
+                          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="cf8ff" class="javax.swing.JTextField" binding="existCusFlightTextField3">
+                        <constraints>
+                          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="d2a99" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                          <text value="Flight#"/>
+                        </properties>
+                      </component>
+                      <component id="7d2dc" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                          <text value="Airline"/>
+                        </properties>
+                      </component>
+                      <component id="f9af3" class="javax.swing.JTextField" binding="existCusAirlineTextField">
+                        <constraints>
+                          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="e3251" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="Booking Information"/>
+                        </properties>
+                      </component>
+                      <component id="1ef7b" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="Booking Information"/>
+                        </properties>
+                      </component>
+                      <component id="2665f" class="javax.swing.JButton" binding="newCusSubmitButton">
+                        <constraints>
+                          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                          <text value="Submit"/>
+                        </properties>
+                      </component>
+                      <component id="136f0" class="javax.swing.JButton" binding="exisCusSubmitButton">
+                        <constraints>
+                          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                          <text value="Submit"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="65c59" binding="FlightsPanel" layout-manager="GridLayoutManager" row-count="6" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="5">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Flights"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="8506e" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="4" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="163" height="21"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <enabled value="true"/>
+                          <font size="20" style="1"/>
+                          <text value="Airline"/>
+                        </properties>
+                      </component>
+                      <component id="caa06" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="249" height="21"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <enabled value="true"/>
+                          <font size="20" style="1"/>
+                          <text value="Flying from"/>
+                        </properties>
+                      </component>
+                      <component id="e42e3" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="163" height="21"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <enabled value="true"/>
+                          <font size="20" style="1"/>
+                          <text value="Flying to"/>
+                        </properties>
+                      </component>
+                      <component id="80878" class="javax.swing.JButton" binding="SearchFlightButton">
+                        <constraints>
+                          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                          <text value="Search"/>
+                        </properties>
+                      </component>
+                      <component id="1da34" class="javax.swing.JTextField" binding="SearchFlightNumTextField">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="31"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="50470" class="javax.swing.JTextField" binding="SearchFlyFromTextField">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="31"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="a2956" class="javax.swing.JTextField" binding="SearchFlyToTextField">
+                        <constraints>
+                          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="31"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="dc44a" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="249" height="21"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="Enter any of the following:"/>
+                        </properties>
+                      </component>
+                      <component id="e5c7a" class="javax.swing.JTextField" binding="SearchAirlineTextField">
+                        <constraints>
+                          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="31"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="366d1" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="249" height="21"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <enabled value="true"/>
+                          <font size="20" style="1"/>
+                          <text value="Flight#"/>
+                        </properties>
+                      </component>
+                      <component id="1dfa1" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="163" height="21"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <enabled value="true"/>
+                          <font size="20" style="1"/>
+                          <text value="Returing Date"/>
+                        </properties>
+                      </component>
+                      <component id="12eec" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="249" height="21"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <enabled value="true"/>
+                          <font size="20" style="1"/>
+                          <text value="Departing Date"/>
+                        </properties>
+                      </component>
+                      <component id="6910c" class="javax.swing.JTextField" binding="SearchReturnDateTextField">
+                        <constraints>
+                          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="31"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="fecb4" class="javax.swing.JTextField" binding="SearchDepartDateTextField">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="31"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="ee59d" class="javax.swing.JTextArea" binding="SearchFlightTextArea">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <minimum-size width="-1" height="400"/>
+                            <preferred-size width="150" height="181"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="18"/>
+                        </properties>
+                      </component>
+                      <component id="7036c" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="16"/>
+                          <text value="FlightNum     ToDateTime                      Distance     ToWhere  FromWhere             FromDateTime                          Abbreviation       PlaneID  "/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="a8da7" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Online Checking"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="2cba9" class="javax.swing.JTextField" binding="CheckCusIDTextField">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="440df" class="javax.swing.JTextField" binding="CheckAirlineTextField">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="4c9d9" class="javax.swing.JButton" binding="CheckInButton">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20" style="1"/>
+                          <text value="Check-In"/>
+                        </properties>
+                      </component>
+                      <component id="a155d" class="javax.swing.JTextField" binding="CheckFlightTextField">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="c171" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="Flight#"/>
+                        </properties>
+                      </component>
+                      <component id="26788" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="CustomerID"/>
+                        </properties>
+                      </component>
+                      <component id="8aac5" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="Airline"/>
+                        </properties>
+                      </component>
+                      <component id="9daaf" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="Confirmation#"/>
+                        </properties>
+                      </component>
+                      <component id="e3a76" class="javax.swing.JTextField" binding="CheckConfirNumTextField">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="55561" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="My Account"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="a84e0" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="180" height="-1"/>
+                            <preferred-size width="180" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="25" style="1"/>
+                          <text value="Customer ID:"/>
+                        </properties>
+                      </component>
+                      <component id="8aa28" class="javax.swing.JTextField" binding="AccountCusIDTextField">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="31"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="25"/>
+                        </properties>
+                      </component>
+                      <component id="c9a59" class="javax.swing.JButton" binding="CusSubmitButton">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20" style="1"/>
+                          <text value="Submit"/>
+                        </properties>
+                      </component>
+                      <component id="1da46" class="javax.swing.JTextArea" binding="CusInfoTextArea">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="22"/>
+                        </properties>
+                      </component>
+                      <component id="47889" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="18"/>
+                          <text value="FlightNum    ToWhere     FromWhere     FromDateTime                         CusStatus     Abbreviation     ConfirmationNum  "/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </tabbedpane>
+            </children>
+          </grid>
+          <grid id="99d3c" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Airline"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <tabbedpane id="1cfef" binding="tabbedPane3" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="24" style="1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="5c8f2" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Check in"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="8dcae" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="Flight#:"/>
+                        </properties>
+                      </component>
+                      <component id="90309" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="Airline"/>
+                        </properties>
+                      </component>
+                      <component id="b2ed7" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="CustomerID:"/>
+                        </properties>
+                      </component>
+                      <component id="1491a" class="javax.swing.JButton" binding="AirlineCheckBoardedButton">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                          <text value="Boarded"/>
+                        </properties>
+                      </component>
+                      <component id="5d6af" class="javax.swing.JButton" binding="AirlineCheckInButton">
+                        <constraints>
+                          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                          <text value="Check-In"/>
+                        </properties>
+                      </component>
+                      <component id="4c8cd" class="javax.swing.JButton" binding="AirlineCheckCancelButton">
+                        <constraints>
+                          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                          <text value="Cancel"/>
+                        </properties>
+                      </component>
+                      <component id="16b9a" class="javax.swing.JTextField" binding="AirlineCheckFlightTextField">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="f9442" class="javax.swing.JTextField" binding="AirlineCheckAirTextField">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="5a24c" class="javax.swing.JTextField" binding="AIrlineCheckCusIDTextField">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="6d303" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="Luggage Type"/>
+                        </properties>
+                      </component>
+                      <component id="9a719" class="javax.swing.JTextField" binding="AirlineCheckLuggageTypeTextField">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="c817e" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="Luggage Weight"/>
+                        </properties>
+                      </component>
+                      <component id="af493" class="javax.swing.JTextField" binding="AirlineCheckLuggageWeightTextField">
+                        <constraints>
+                          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="fd5af" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Crew Member Mangement"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="dbe9e" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="CrewID"/>
+                        </properties>
+                      </component>
+                      <component id="feb4c" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="Crew Name"/>
+                        </properties>
+                      </component>
+                      <component id="61394" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="Airline"/>
+                        </properties>
+                      </component>
+                      <component id="1a1dc" class="javax.swing.JTextField" binding="NewCrewAirTextField">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="91399" class="javax.swing.JTextField" binding="NewCrewIDTextField">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="293da" class="javax.swing.JTextField" binding="NewCrewNameTextField">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="cb885" class="javax.swing.JButton" binding="addCrewMemberButton" default-binding="true">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20" style="1"/>
+                          <text value="Add Crew Member"/>
+                        </properties>
+                      </component>
+                      <component id="352e6" class="javax.swing.JButton" binding="DeleteCrewMemberButton">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20" style="1"/>
+                          <text value="Delete Crew Member"/>
+                        </properties>
+                      </component>
+                      <component id="4cd3d" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="Position"/>
+                        </properties>
+                      </component>
+                      <component id="f945d" class="javax.swing.JTextField" binding="NewCrewPositionTextField">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="a1c49" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Schedule"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="9b035" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="Airline:"/>
+                        </properties>
+                      </component>
+                      <component id="ac9ed" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="Flight#"/>
+                        </properties>
+                      </component>
+                      <component id="15cad" class="javax.swing.JTextField" binding="CrewAirlineTextField">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="24"/>
+                        </properties>
+                      </component>
+                      <component id="b54b6" class="javax.swing.JTextField" binding="CrewFlightTextField">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="24"/>
+                        </properties>
+                      </component>
+                      <component id="df319" class="javax.swing.JTextField" binding="CrewIDTextField">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="24"/>
+                        </properties>
+                      </component>
+                      <component id="92d53" class="javax.swing.JButton" binding="assignFlightButton" default-binding="true">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="Assign Flight"/>
+                        </properties>
+                      </component>
+                      <component id="eb5c6" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="24" style="1"/>
+                          <text value="CrewID"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="3eb9" layout-manager="GridLayoutManager" row-count="10" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Flight Management"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="7934f" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="22" style="1"/>
+                          <text value="Plane#"/>
+                        </properties>
+                      </component>
+                      <component id="d5773" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="22" style="1"/>
+                          <text value="Flight#"/>
+                        </properties>
+                      </component>
+                      <component id="fac24" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="22" style="1"/>
+                          <text value="Airline"/>
+                        </properties>
+                      </component>
+                      <component id="f8c19" class="javax.swing.JTextField" binding="CreateFlightPlaneTextField">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="f797d" class="javax.swing.JTextField" binding="CreateFlightIDTextField">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="77119" class="javax.swing.JTextField" binding="CreateFlightAirlineTextField">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="3314f" class="javax.swing.JButton" binding="CreateFlightButton">
+                        <constraints>
+                          <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="22" style="1"/>
+                          <text value="Create Flight"/>
+                        </properties>
+                      </component>
+                      <component id="4e6a2" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="22" style="1"/>
+                          <text value="FromWhere"/>
+                        </properties>
+                      </component>
+                      <component id="efb49" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="22" style="1"/>
+                          <text value="ToWhere"/>
+                        </properties>
+                      </component>
+                      <component id="47478" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="22" style="1"/>
+                          <text value="ToDateTime"/>
+                        </properties>
+                      </component>
+                      <component id="a3880" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="22" style="1"/>
+                          <text value="FromDateTime"/>
+                        </properties>
+                      </component>
+                      <component id="10749" class="javax.swing.JTextField" binding="CreateFromDateTextField">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="47ca" class="javax.swing.JTextField" binding="CreateToDateTextField">
+                        <constraints>
+                          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="a6180" class="javax.swing.JTextField" binding="CreateFromWhereTextField">
+                        <constraints>
+                          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="60a98" class="javax.swing.JTextField" binding="CreateToWhereTextField">
+                        <constraints>
+                          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="f334e" class="javax.swing.JButton" binding="DeleteFlightButton">
+                        <constraints>
+                          <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20" style="1"/>
+                          <text value="Delete Flight"/>
+                        </properties>
+                      </component>
+                      <component id="a14ed" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="22" style="1"/>
+                          <text value="Distance"/>
+                        </properties>
+                      </component>
+                      <component id="9aa96" class="javax.swing.JTextField" binding="CreateFlightDistanceTextField">
+                        <constraints>
+                          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="d9433" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Stats"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="804ab" class="javax.swing.JButton" binding="totalNumberOfFlightsButton" default-binding="true">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="-1" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="18" style="1"/>
+                          <text value="Total number of flights for each destination"/>
+                        </properties>
+                      </component>
+                      <component id="4cf2a" class="javax.swing.JTextArea" binding="StatsBox1">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="250" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="ccb72" class="javax.swing.JButton" binding="averageNumberOfFlightsButton" default-binding="true">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="-1" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="18" style="1"/>
+                          <text value="Average number of flights a customer takes with an airline"/>
+                        </properties>
+                      </component>
+                      <component id="4e290" class="javax.swing.JTextArea" binding="statbox2">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="20"/>
+                        </properties>
+                      </component>
+                      <component id="9063e" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="16" style="1"/>
+                          <text value="Total FlightNum   ToWhere "/>
+                        </properties>
+                      </component>
+                      <component id="6be96" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="16" style="1"/>
+                          <text value="AirlineName          Number of Flights "/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="3cb28" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Royal Customer"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="e6a41" class="javax.swing.JButton" binding="updateButton" default-binding="true">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="20" style="1"/>
+                          <text value="Update"/>
+                        </properties>
+                      </component>
+                      <component id="468b0" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="18" style="1"/>
+                          <text value="CusName                                        Abbreviation                 PlaneID "/>
+                        </properties>
+                      </component>
+                      <component id="eea3e" class="javax.swing.JTextArea" binding="RoyalCustomerArea">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font size="26"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </tabbedpane>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
