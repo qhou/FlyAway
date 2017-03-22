@@ -1,22 +1,19 @@
 # FlyAway
-
-##PROJECT DESCRIPTION
-The project was based on an airline and airport management system. There were 2
-types of users:
-*1) Administrators who were airline employees.
-*2) Normal consumers looking to book flights.
-*Adminstrators were capable to manipulating and querying certain information about the
-database that was available to customers. For example, administrators were capable of
-assigning Crewmembers to a certain flight but customers were not. There were
-statistical data that could be queried as well which is located on the statistics tab. A
-number of other functionalities such as deleting and adding flights, changing statuses of
-customers such that they are checkedin
-or not.
-
-##PURPOSE: 
-What this project accomplished is that it provides a very good basis for a robust future
-project. The project is designed for further improvement and we all plan on using this as
-a basis for further project.
-
-##Credits
+## Author
 Laura Liu, Alvin Wong, Imhran Khan, Quinn Hou
+
+## PROJECT DESCRIPTION
+This project was based on the airline and airport management system. There were 2
+types of users:
+
+1) Administrators who were airline employees.
+2) Normal consumers looking to book flights.
+
+Adminstrators were capable of querying specific information of the
+database that was available to customers. For example, administrators could
+assign crewmembers to a certain flight but customers could not. There were also
+statistical data that could be queried which is located on the statistics tab. Other abilities of Administrator include deleting and adding flights, and changing customers' checked-in status.
+
+## PURPOSE
+FlyAway was designed for further improvement and there are plans for using FlyAway as
+a basis for further project.
